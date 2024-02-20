@@ -25,6 +25,11 @@ To run the test and exercise the `CustomerRepository` functionality in a test
 ./mvnw clean package
 ``` 
 
+## Running Flyway migrations
+
+```bash
+./mvnw flyway:migrate
+```
 
 
 
